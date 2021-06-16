@@ -1,0 +1,42 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+#topbanner{
+  background-color: #a6adbd;
+}
+
+#about {
+  float: right;
+  color: black;
+  background-color: white;
+  font-size: 125%;
+}
+
+#about:hover, #about:focus {
+  background-color: #E4E3D2;
+}
+
+#countdown {
+  margin-left: 5%;
+  width: 85%
+}
+
+img {
+  height: 8em
+}
+
+.sponsorname {
+  font-size: smaller;
+  float: left;
+}
+
+.currentrank {
+  font-size: 2em;
+  color: darkgray;
+}
+
+.formerrank {
+  font-size: larger;
+}
