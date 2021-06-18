@@ -5,6 +5,13 @@ html {
 
 #topbanner{
   background-color: #a6adbd;
+  padding-bottom: 2em;
+}
+
+#toplogo {
+  font-family: 'Monoton', cursive;
+  font-size:3rem;
+  color: white;
 }
 
 #about {
