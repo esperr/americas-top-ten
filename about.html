@@ -14,9 +14,11 @@
 <main>
   <!-- Main jumbotron for a primary marketing message or call to action -->
   <div class="jumbotron" id="topbanner">
-    <div>
+    <a id="about" class="badge badge-pill badge-light" href="index.html">Home</a>
+
+    <div class="container">
       <h1 id="toplogo">About America's Top Ten Bills</h1>
-    </div>
+  </div>
   </div>
 
   <div class="container">
@@ -24,13 +26,12 @@
     <div class="row">
       <div class="col-md-8">
         <h3>Why America's Top Ten Bills?</h3>
-        <p>America's Top Ten Bills is a remixing of the data found at the <a href="https://www.congress.gov/most-viewed-bills/">10 Most Viewed Bills</a> page.
-          It republishes the weekly list found there while enhancing it is a couple of important ways. Firstly, it shows the sponsor
-          of each measure. Second, it not only shows the current rank of each measure, but also past its past performance, measured by previous week's rank, peak rank and total number of weeks on the chart.</p>
+        <p>America's Top Ten Bills is a remixing of the data found at the <a href="https://www.congress.gov/most-viewed-bills/">10 Most Viewed Bills</a> page that <em>enhances</em> that list in a couple of useful ways. It not only shows
+          the sponsor of each measure, but also gives a readout of its past performance on the "chart" by detailing its previous week rank, peak rank and total number of weeks in the top 10.</p>
 
         <h3>Technology and Credits</h3>
-        <p>All data comes from the friendly folks at <a href="https://www.congress.gov/">congress.gov</a>. There's not presently an API for extractng this information, so this project rests on an edifice of screen-scraping
-          using <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">beautifulsoup</a>. See <a href="">this repo</a> for details</p>
+        <p>All data comes from the friendly folks at <a href="https://www.congress.gov/">congress.gov</a>. There's not presently an API for extractng this information, so this application relies upon screen-scraping
+          using <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">beautifulsoup</a>. See <a href="">this repo</a> for the scraper's code.</p>
 
         <p>Responsive design made less painful with <a href="https://getbootstrap.com/">Bootstrap</a>. Source at <a href=""></a>.</p>
 

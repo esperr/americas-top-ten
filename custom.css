@@ -4,7 +4,8 @@ html {
 }
 
 #topbanner{
-  background-color: #a6adbd;
+  background-color: #6f8ca5;
+    padding-top: 2em;
   padding-bottom: 2em;
 }
 
@@ -18,16 +19,15 @@ html {
   float: right;
   color: black;
   background-color: white;
-  font-size: 125%;
-}
+  font-size: 110%; }
 
 #about:hover, #about:focus {
   background-color: #E4E3D2;
 }
 
 #countdown {
-  margin-left: 5%;
-  width: 85%
+  margin-left: 1.5em;
+  width: 90%
 }
 
 img {
